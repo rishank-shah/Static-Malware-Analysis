@@ -1,0 +1,260 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NotPacked.exe</title>
+        <style> 
+        table, th, td { border: 1px solid black;border-collapse: collapse;}
+        table { margin-left: auto; margin-right: auto; }
+        tr,h3 { text-align: center; }
+        th { padding : 10px; }
+        td { padding : 3px; }
+        </style>
+    </head>
+    <body>
+        <h3> General Information </h3>
+        <table>
+            <thead>
+                <tr>
+                    <th> SHA 256 HASH </th>
+                    <th> <a href="https://www.virustotal.com/gui/search/3b4773db51a514ef19515b0323fb46691176be163f2a6a71c643f65d9a211867" target="_blank" rel="noopener noreferrer">3b4773db51a514ef19515b0323fb46691176be163f2a6a71c643f65d9a211867</a> </th>
+                </tr>
+                <tr>
+                    <th> Architecture </th>
+                    <th> 32 bit binary </th>
+                </tr>
+                <tr>
+                    <th colspan="2" > <a href="NotPacked.exe-strings.html" target="_blank" rel="noopener noreferrer"> Strings </a> </th>
+                </tr>
+            </thead>
+        </table>
+        <br><hr/>
+        <h3> Malicious API's </h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Tags</th>
+                    <th>Malicious</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+    <tr>
+        <td><a href="https://malapi.io/winapi/PeekNamedPipe" target="_blank" rel="noopener noreferrer">PeekNamedPipe</a></td>
+        <td>Used to copy data from a named pipe without removing data from the 
+pipe. This function has been used by exploits targeting SMB vulnerabilities.</td>
+        <td>Helper</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/ReadFile" target="_blank" rel="noopener noreferrer">ReadFile</a></td>
+        <td>ReadFile is used to read data from the specified file or input/output (I/O) device.</td>
+        <td>Enumeration</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/WriteFile" target="_blank" rel="noopener noreferrer">WriteFile</a></td>
+        <td>WriteFile is used to write data to the specified file or input/output (I/O) device.</td>
+        <td>Helper</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/LoadLibraryA" target="_blank" rel="noopener noreferrer">LoadLibraryA</a></td>
+        <td>LoadLibraryA is used to load a specified module into the address space of the calling process. Malware commonly use this to load DLLs dynamically for evasion purposes.</td>
+        <td>Injection Evasion</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/GetProcAddress" target="_blank" rel="noopener noreferrer">GetProcAddress</a></td>
+        <td>GetProcAddress is used to get the memory address of a function in a DLL. This is often used by malware for obfuscation and evasion purposes to avoid having to call the function directly.</td>
+        <td>Injection Evasion</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/GetVersionExA" target="_blank" rel="noopener noreferrer">GetVersionExA</a></td>
+        <td>GetVersionExA is a classic method used to retrieve the Windows version.</td>
+        <td>Enumeration</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/TerminateProcess" target="_blank" rel="noopener noreferrer">TerminateProcess</a></td>
+        <td>TerminateProcess is used to terminate a process.</td>
+        <td>Helper</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/CreateMutexA" target="_blank" rel="noopener noreferrer">CreateMutexA</a></td>
+        <td>CreateMutexA is used to create a new mutex object. Mutexs are often used by malware to prevent the reinfection of a system with the same or different malware variant.</td>
+        <td>Helper</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/GetCurrentProcess" target="_blank" rel="noopener noreferrer">GetCurrentProcess</a></td>
+        <td>GetCurrentProcess is used to retrieve a handle for the current process.</td>
+        <td>Enumeration</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/GetSystemTimeAsFileTime" target="_blank" rel="noopener noreferrer">GetSystemTimeAsFileTime</a></td>
+        <td>Retrieves the current system date and time. The information is in Coordinated Universal Time (UTC) format. This function is commonly used by malware for anti-debugging.</td>
+        <td>Enumeration Anti-Debugging</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/Sleep" target="_blank" rel="noopener noreferrer">Sleep</a></td>
+        <td>Sleep is used to suspend the execution of the current thread for a set time. This function is commonly used for time-based evasion by adding delays in the code.</td>
+        <td>Evasion Anti-Debugging</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/WaitForSingleObject" target="_blank" rel="noopener noreferrer">WaitForSingleObject</a></td>
+        <td>WaitForSingleObject is used to delay the execution of an object. This function is commonly used to allow time for shellcode being executed within a thread to run. It is also used for time-based evasion.</td>
+        <td>Injection Evasion</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/CreateFileA" target="_blank" rel="noopener noreferrer">CreateFileA</a></td>
+        <td>CreateFileA is used to create a new file or opens an existing file.</td>
+        <td>Helper</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/DeviceIoControl" target="_blank" rel="noopener noreferrer">DeviceIoControl</a></td>
+        <td>DeviceIoControl is used to send a control message from user space to a device driver. DeviceIoControl is popular with kernel malware because it is an easy flexible way to pass information between user space and kernel space.</td>
+        <td>Helper</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/connect" target="_blank" rel="noopener noreferrer">connect</a></td>
+        <td>Connect is used to establish a connection to a specified socket.</td>
+        <td>Internet</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/gethostbyname" target="_blank" rel="noopener noreferrer">gethostbyname</a></td>
+        <td>gethostbyname is used to retrieve host information corresponding to a host name from a host database.</td>
+        <td>Internet</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/socket" target="_blank" rel="noopener noreferrer">socket</a></td>
+        <td>socket is used create a socket that is bound to a specific transport service provider.</td>
+        <td>Internet</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/closesocket" target="_blank" rel="noopener noreferrer">closesocket</a></td>
+        <td>Closesocket is used to close an existing socket.</td>
+        <td>Internet</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/select" target="_blank" rel="noopener noreferrer">select</a></td>
+        <td>Select is used to determine the status of one or more sockets waiting if necessary to perform synchronous I/O. This function is used by malware for time-based evasion by setting a large timeout number.</td>
+        <td>Evasion</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/ioctlsocket" target="_blank" rel="noopener noreferrer">ioctlsocket</a></td>
+        <td>ioctlsocket takes control of the I/O mode of a socket in any state</td>
+        <td>Internet</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/WSAStartup" target="_blank" rel="noopener noreferrer">WSAStartup</a></td>
+        <td>WSAStartup is used to initiate use of the Winsock DLL by a process.</td>
+        <td>Internet</td>
+    </tr>
+
+    <tr>
+        <td><a href="https://malapi.io/winapi/WSACleanup" target="_blank" rel="noopener noreferrer">WSACleanup</a></td>
+        <td>WSACleanup is used to terminate the use of the Winsock 2 DLL. This function is commonly used by malware upon successfully utilizing the Winsock 2 functions.</td>
+        <td>Internet</td>
+    </tr>
+
+            </tbody>
+        </table>
+        <br><hr/>
+        <h3> Other API's </h3>
+        <p> strrchr, wcsncmp, wcslen, wcscpy, strerror, modf, strspn, realloc, free, strncmp, strstr, strncpy, qsort, fopen, perror, fclose, fflush, calloc, malloc, signal, printf, atoi, exit, strchr, fprintf, GetExitCodeProcess, LeaveCriticalSection, SetEvent, ReleaseMutex, EnterCriticalSection, DeleteCriticalSection, InitializeCriticalSection, GetFileType, SetLastError, FreeEnvironmentStringsW, GetEnvironmentStringsW, GlobalFree, GetCommandLineW, TlsAlloc, TlsFree, DuplicateHandle, SetHandleInformation, CloseHandle, FileTimeToSystemTime, GetTimeZoneInformation, FileTimeToLocalFileTime, SystemTimeToFileTime, SystemTimeToTzSpecificLocalTime, FormatMessageA, GetLastError, CreateEventA, SetStdHandle, SetFilePointer, CreateFileW, GetOverlappedResult, GetFileInformationByHandle, LocalFree, FreeSid, AllocateAndInitializeSid, getsockopt, htons, ntohl, inet_ntoa, setsockopt, WSAGetLastError, WSARecv, WSASend </p>
+        <br><hr/>
+        <h3> Sections </h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Virtual Size</th>
+                    <th>Raw Data Size</th>
+                    <th>Virtual Size >  Raw Data</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+    <tr>
+        <td>.text</td>
+        <td>0xa966</td>
+        <td>0xb000</td>
+        <td>False</td>
+    </tr>
+
+    <tr>
+        <td>.rdata</td>
+        <td>0xfe6</td>
+        <td>0x1000</td>
+        <td>True</td>
+    </tr>
+
+    <tr>
+        <td>.data</td>
+        <td>0x705c</td>
+        <td>0x4000</td>
+        <td>True</td>
+    </tr>
+
+    <tr>
+        <td>.rsrc</td>
+        <td>0x7c8</td>
+        <td>0x1000</td>
+        <td>True</td>
+    </tr>
+
+            </tbody>
+        </table>
+        
+        <br><hr/>
+        <h3> Virus Total Results </h3>
+        <table>
+            <tbody>
+                
+        <tr>
+            <th> Magic Header </th>
+            <td> PE32 executable for MS Windows (GUI) Intel 80386 32-bit </td>
+        </tr>
+    
+        <tr>
+            <th> Times Submitted </th>
+            <td> 4 </td>
+        </tr>
+    
+        <tr>
+            <th> Threat Classification sugested label </th>
+            <td> trojan.swrort/cryptz </td>
+        </tr>
+    
+            <tr>
+                <th colspan="2" > Yara Rules</th>
+            </tr>
+        
+            <tr>
+                <th> Msfpayloads_msf_10 </th>
+                <td> https://github.com/Neo23x0/signature-base </td>
+            </tr>
+        
+            <tbody>
+        </table>
+    
+    </body>
+</html>

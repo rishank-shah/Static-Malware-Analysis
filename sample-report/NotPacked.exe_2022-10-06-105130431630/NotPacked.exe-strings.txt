@@ -1,0 +1,474 @@
+11.77,Licensed to The Apache Software Foundation, http://www.apache.org/<br>
+11.75,Licensed to The Apache Software Foundation, http://www.apache.org/
+11.71,http://www.apache.org/licenses/LICENSE-2.0
+11.57,Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/<br>
+11.54,Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+10.60,Usage: %s [options] [http://]hostname[:port]/path
+10.60,C:\local0\asf\release\build-2.2.14\support\Release\ab.pdb
+9.23,%s %s HTTP/1.0
+9.23,%s %s HTTP/1.0
+8.97,WSOCK32.dll
+8.90,WS2_32.dll
+8.87,0.0.0.0
+8.86,ntdll.dll
+8.79,calc.exe
+8.74,Network is down
+8.72,No host data of that type was found
+8.71,socket receive buffer
+8.71,No route to host
+8.71,Host is down
+8.71,Too many open sockets
+8.68,Server Software:        %s
+8.61,Server Port:            %hu
+8.61,Server Hostname:        %s
+8.56,<tr %s><th colspan=2 %s>Server Software:</th><td colspan=2 %s>%s</td></tr>
+8.52,<tr %s><th colspan=2 %s>Server Port:</th><td colspan=2 %s>%hu</td></tr>
+8.51,<tr %s><th colspan=2 %s>Server Hostname:</th><td colspan=2 %s>%s</td></tr>
+8.37,LOG: header received:
+8.37,Options are:
+8.35,Host not found
+8.35,Socket is not connected
+8.32,Too many processes
+8.30,End of file found
+8.29,%.2f kb/s sent
+8.29,Operation now in progress
+8.29,Connection reset by peer
+8.27,https://
+8.27,Content-type: %s
+8.27,%s%s%sContent-length: %u
+8.26,Document Path:          %s
+8.26,http://
+8.25,(be patient)%s
+8.25,Document Length:        %u bytes
+8.24,[through %s:%d]
+8.24,Total:      %5I64d %4I64d %5.1f %6I64d %7I64d
+8.24,Your code just forked, and you are currently executing in the parent process
+8.24,0%%  <0> (never)
+8.23,Your code just forked, and you are currently executing in the child process
+8.23,<table %s>
+8.22,%s	%I64d	%I64d	%I64d	%I64d	%I64d
+8.22,%.2f kb/s total
+8.22,No socket was provided and one was required.
+8.21,An invalid socket was returned
+8.20,Complete requests:      %d
+8.20,Non-2xx responses:      %d
+8.17,The given path was above the root path
+8.16,Completed %d requests
+8.16,Concurrency Level:      %d
+8.15,Write errors:           %d
+8.14,%s: invalid URL
+8.13,bogus %p
+8.13,<tr %s><th colspan=2 %s>Total PUT:</th><td colspan=2 %s>%I64d</td></tr>
+8.13,<tr %s><th colspan=2 %s>Total POSTed:</th><td colspan=2 %s>%I64d</td></tr>
+8.13,Failed requests:        %d
+8.11,Finished %d requests
+8.11,Apache HTTP Server
+8.07,-k              Use HTTP KeepAlive feature
+7.99,ab: Could not stat POST data file (%s): %s
+7.99,ab: Could not open POST data file (%s): %s
+7.99,ab: Could not read POST data file: %s
+7.85,Socket is already connected
+7.82,_strnicmp
+7.81,User-Agent:
+7.81,Too many users
+7.78,apr_socket_connect()
+7.76,<tr %s><th colspan=2 %s>HTML transferred:</th><td colspan=2 %s>%I64d bytes</td></tr>
+7.76,<tr %s><th colspan=2 %s>Document Length:</th><td colspan=2 %s>%u bytes</td></tr>
+7.74,<tr %s><th colspan=2 %s>Document Path:</th><td colspan=2 %s>%s</td></tr>
+7.73,apr_socket_recv
+7.71,<tr %s><td colspan=2 %s>&nbsp;</td><td colspan=2 %s>%.2f kb/s sent</td></tr>
+7.68,<tr %s><th colspan=2 %s>Total transferred:</th><td colspan=2 %s>%I64d bytes</td></tr>
+7.67,<tr %s><th %s>Processing:</th><td %s>%5I64d</td><td %s>%5I64d</td><td %s>%5I64d</td></tr>
+7.64,Processing: %5I64d %4I64d %5.1f %6I64d %7I64d
+7.64,<tr %s><th colspan=2 %s>Time taken for tests:</th><td colspan=2 %s>%.3f seconds</td></tr>
+7.64,<tr %s><th colspan=2 %s>Transfer rate:</th><td colspan=2 %s>%.2f kb/s received</td></tr>
+7.64,<tr %s><th colspan=2 %s>Requests per second:</th><td colspan=2 %s>%.2f</td></tr>
+7.64,<tr %s><th colspan=2 %s>Keep-Alive requests:</th><td colspan=2 %s>%d</td></tr>
+7.64,<tr %s><th colspan=2 %s>Concurrency Level:</th><td colspan=2 %s>%d</td></tr>
+7.64,<tr %s><th %s colspan=4>Connnection Times (ms)</th></tr>
+7.63,<tr %s><th colspan=2 %s>Failed requests:</th><td colspan=2 %s>%d</td></tr>
+7.63,<tr %s><td colspan=2 %s>&nbsp;</td><td colspan=2 %s>%.2f kb/s total</td></tr>
+7.63,Time per request:       %.3f [ms] (mean, across all concurrent requests)
+7.63,<tr %s><th %s>&nbsp;</th> <th %s>min</th>   <th %s>avg</th>   <th %s>max</th></tr>
+7.63,<tr %s><th colspan=2 %s>Complete requests:</th><td colspan=2 %s>%d</td></tr>
+7.62,<tr %s><th %s>Connect:</th><td %s>%5I64d</td><td %s>%5I64d</td><td %s>%5I64d</td></tr>
+7.62,<tr %s><th %s>Total:</th><td %s>%5I64d</td><td %s>%5I64d</td><td %s>%5I64d</td></tr>
+7.62,<tr %s><th colspan=2 %s>Non-2xx responses:</th><td colspan=2 %s>%d</td></tr>
+7.61,<tr %s><td colspan=4 %s >   (Connect: %d, Length: %d, Exceptions: %d)</td></tr>
+7.61,Server:
+7.60,Cookie:
+7.60,-r              Don't exit on socket receive errors.
+7.60,100%%  %5I64d (longest request)
+7.60,Waiting:    %5I64d %4I64d %5.1f %6I64d %7I64d
+7.59,Connect:    %5I64d %4I64d %5.1f %6I64d %7I64d
+7.57,%s: wrong number of arguments
+7.56,apr_sockaddr_info_get() for %s
+7.56,This is ApacheBench, Version %s <i>&lt;%s&gt;</i><br>
+7.55,%s: option requires an argument -- %c
+7.55,ISSShL
+7.54,WARNING: Response code not 2xx (%s)
+7.54,%s: Invalid Concurrency [Range 0..%d]
+7.54,Too many references, can't splice
+7.54,Software caused connection abort
+7.54,Socket operation on non-socket
+7.53,GetProcAddress
+7.52,Transfer rate:          %.2f [Kbytes/sec] received
+7.52,Requests per second:    %.2f [#/sec] (mean)
+7.50,Time per request:       %.3f [ms] (mean)
+7.50,(Connect: %d, Receive: %d, Length: %d, Exceptions: %d)
+7.50,Test aborted after 10 failures
+7.50,Partial results are valid but processing is incomplete
+7.49,No shared memory is currently available
+7.49,WSAStartup not yet called
+7.49,Time taken for tests:   %.3f seconds
+7.49,Keep-Alive requests:    %d
+7.48,Host:
+7.48,No process was provided and one was required.
+7.48,No lock was provided and one was required.
+7.48,%s: illegal option -- %c
+7.47,This is ApacheBench, Version %s
+7.47,These results are probably not that reliable.
+7.47,These results are probably not that reliable.
+7.47,These results are probably not that reliable.
+7.47,These results are probably not that reliable.
+7.47,No thread key structure was provided and one was required.
+7.47,The given path is incomplete
+7.47,Operation already in progress
+7.46,Too many levels of remote in path
+7.46,Operation would block
+7.46,Shared memory is implemented anonymously
+7.46,-e filename     Output CSV file with percentages served
+7.46,No directory was provided and one was required.
+7.45,No poll structure was provided and one was required.
+7.45,LOG: Response code = %s
+7.45,No thread was provided and one was required.
+7.45,No time was provided and one was required.
+7.45,CreateEventA
+7.45,TerminateProcess
+7.45,ERROR: The median and mean for the processing time are more than twice the standard
+7.45,DeviceIoControl
+7.44,ERROR: The median and mean for the initial connection time are more than twice the standard
+7.44,Permission denied
+7.44,The given path is absolute
+7.44,This function has not been implemented on this platform
+7.43,WARNING: The median and mean for the processing time are not within a normal deviation
+7.43,ERROR: The median and mean for the waiting time are more than twice the standard
+7.43,ERROR: The median and mean for the total time are more than twice the standard
+7.42,Benchmarking %s
+7.42,INFO: %s header ==
+7.42,An invalid date has been provided
+7.42,APR does not understand this error code
+7.42,Too many levels of symbolic links
+7.42,SetFilePointer
+7.42,LoadLibraryA
+7.42,CreateFileA
+7.42,CreateMutexA
+7.42,WriteFile
+7.42,PeekNamedPipe
+7.42,CreateFileW
+7.41,-v verbosity    How much troubleshooting info to print
+7.41,WARNING: The median and mean for the initial connection time are not within a normal deviation
+7.41,The process is not recognized.
+7.41,ReadFile
+7.40,WARNING: The median and mean for the total time are not within a normal deviation
+7.40,WARNING: The median and mean for the waiting time are not within a normal deviation
+7.38,The given path is misformatted or contained invalid characters
+7.37,Percentage served,Time in ms
+7.37,SSL not compiled in; no https support
+7.36,socket nonblock
+7.34,Total of %d requests completed
+7.34,A new pool could not be created.
+7.31,socket send buffer
+7.31,Unrecognized Win32 error code %d
+7.31,passwords do not match
+7.31,Socket type not supported
+7.30,Server timed out
+7.25,fprintf
+7.25,socket
+7.22,%s: Cannot use concurrency level greater than total number of requests
+7.22,-C attribute    Add cookie, eg. 'Apache=1234. (repeatable)
+7.21,-b windowsize   Size of TCP send/receive buffer, in bytes
+7.19,Total POSTed:           %I64d
+7.15,-i              Use HEAD instead of GET
+7.14,Total PUT:              %I64d
+7.03,-H attribute    Add Arbitrary header line, eg. 'Accept-Encoding: gzip'
+7.02,-P attribute    Add Basic Proxy Authentication, the attributes
+7.00,-A attribute    Add Basic WWW Authentication, the attributes
+6.98,User-Agent: ApacheBench/
+6.98,ab.exe
+6.98,ab.exe
+6.97,Proxy-Authorization: Basic
+6.82,-X proxy:port   Proxyserver and port number to use
+6.79,Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+6.75,t^Ht0Hup
+6.73,The specified child process is not done executing
+6.73,The specified child process is done executing
+6.73,Connect:    %5I64d %5I64d%5I64d
+6.72,Can't send after socket shutdown
+6.70,Total:      %5I64d %5I64d%5I64d
+6.70,ApacheBench command line utility
+6.69,The specified network mask is invalid.
+6.68,Could not find specified socket in poll list.
+6.67,Authentication credentials too long
+6.67,Proxy credentials too long
+6.66,Bad character specified on command line
+6.65,Missing parameter for the specified command line option
+6.63,__p__commode
+6.63,Graceful shutdown in progress
+6.62,are a colon separated username and password.
+6.62,Network is unreachable
+6.60,__p__wenviron
+6.60,__p__environ
+6.60,H''CIB@A
+6.59,_except_handler3
+6.58,_initterm
+6.57,__mb_cur_max
+6.57,Network system is unavailable
+6.57,__p__fmode
+6.57,__p___initenv
+6.56,0123456789.
+6.56,Content-Length:
+6.55,</table>
+6.55,Content-length:
+6.54,Protocol wrong type for socket
+6.54,apr_global_pool
+6.54,Keep-Alive
+6.54,apr_poll
+6.54,apr_initialize
+6.53,apr_pollset_create failed
+6.53,text/plain
+6.53,keep-alive
+6.53,__setusermatherr
+6.53,_isctype
+6.53,bgcolor=white
+6.52,ICA?'/B
+6.51,_controlfp
+6.50,__set_app_type
+6.50,__dllonexit
+6.49,__getmainargs
+6.49,Operation not supported on socket
+6.49,_XcptFilter
+6.48,$Revision: 655654 $
+6.48,_adjust_fdiv
+6.47,-w              Print out results in HTML tables
+6.44,Comments
+6.41,-d              Do not show percentiles served table.
+6.41,CompanyName
+6.40,Accept: */*
+6.40,Accept:
+6.40,`.rdata
+6.40,ProductName
+6.39,_onexit
+6.38,Connection Times (ms)
+6.38,-S              Do not show confidence estimators and warnings.
+6.37,Can't assign requested address
+6.35,OriginalFilename
+6.35,VarFileInfo
+6.35,InternalName
+6.35,FileVersion
+6.35,FileDescription
+6.35,StringFileInfo
+6.34,Destination address required
+6.34,Send request timed out!
+6.33,Translation
+6.33,_strdup
+6.33,_pctype
+6.32,..done
+6.32,-V              Print version number and exit
+6.32,-y attributes   String to insert as tr attributes
+6.32,P '@ht
+6.31,@.data
+6.30,min  mean[+/-sd] median   max
+6.29,-z attributes   String to insert as td or th attributes
+6.28,-n requests     Number of requests to perform
+6.28,-x attributes   String to insert as table attributes
+6.27,Protocol not supported
+6.27,starttime	seconds	ctime	dtime	ttime	wait
+6.26,Cannot open CSV output file
+6.25,Bad protocol option
+6.25,Cannot open gnuplot output file
+6.24,Internal error
+6.24,_close
+6.22,The specified thread is not detached
+6.22,The specified thread is detached
+6.21,2.2.14
+6.21,2.2.14
+6.21,WPh >A
+6.20,Net connection reset
+6.20,Connection timed out
+6.20,Bad address
+6.20,Stale NFS file handle
+6.20,DSO load failed
+6.20,mswsock
+6.19,WH^%.R
+6.19,Request too long
+6.19,min   avg   max
+6.19,Directory not empty
+6.19,File name too long
+6.19,Message too long
+6.19,The given path is relative
+6.19,Disc quota exceeded
+6.19,Bad file number
+6.16,KMGTPE
+6.04,-T content-type Content-type header for POSTing, eg.
+5.97,-p postfile     File containing data to POST. Remember also to set -T
+5.97,%d,%.3f
+5.96,-u putfile      File containing data to PUT. Remember also to set -T
+5.95,%d.%d%c
+5.87,Cannot mix POST/PUT and HEAD
+5.86,ab: Could not allocate POST data buffer
+5.86,%d%%  %5I64d
+5.81,0123456789
+5.81,Connection refused
+5.80,0123456789ABCDEF
+5.80,0123456789ABCDEF
+5.79,0123456789abcdef
+5.79,0123456789abcdef
+5.76,%s: %s (%d)
+5.76,Cannot mix PUT and HEAD
+5.76,Cannot mix POST and HEAD
+5.68,Address already in use
+5.68,Processing: %5I64d %5I64d%5I64d
+5.65,!This program cannot be run in DOS mode.
+5.63,VS_VERSION_INFO
+5.60,Copyright 2009 The Apache Software Foundation.
+5.51,HTML transferred:       %I64d bytes
+5.48,-g filename     Output collected data to gnuplot format file.
+5.34,Apache Software Foundation
+5.32,Total transferred:      %I64d bytes
+5.31,2.3 <$Revision: 655654 $>
+5.27,'application/x-www-form-urlencoded'
+5.26,Percentage of the requests served within a certain time (ms)
+5.26,Connection: Keep-Alive
+5.25,-h              Display usage information (this message)
+5.23,LegalCopyright
+5.21,Authorization: Basic
+5.21,Inserted after all normal header lines. (repeatable)
+5.19,n:c:t:b:T:p:u:v:rkVhwix:y:z:C:H:P:A:g:X:de:Sq
+5.19,error creating request buffer: out of memory
+5.18,deviation apart. These results are NOT reliable.
+5.18,deviation apart. These results are NOT reliable.
+5.18,deviation apart. These results are NOT reliable.
+5.18,deviation apart. These results are NOT reliable.
+5.18,Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+5.17,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>@@@?456789:;<=@@@@@@@
+5.17,Send request failed!
+5.16,-t timelimit    Seconds to max. wait for responses
+5.16,Default is 'text/plain'
+5.14,Interrupted system call
+5.12,-c concurrency  Number of multiple requests to make
+5.11,The specified IP address is invalid.
+5.10,Invalid argument
+5.10,Winsock version out of range
+5.09,Invalid number of requests
+5.08,There is no error, this value signifies an initialized error code
+5.08,Error string not specified yet
+5.07,The timeout specified has expired
+5.06,No buffer space available
+5.05,Shared memory is implemented using a key system
+5.03,Shared memory is implemented using files
+5.01,The given path contained wildcard characters
+4.95,%s%s%s%s
+4.86,GetCurrentProcess
+4.84,shell32
+4.83,LocalFree
+4.81,FileTimeToLocalFileTime
+4.78,@@@@@@
+4.77,InitializeCriticalSection
+4.77,GetTimeZoneInformation
+4.75,EnterCriticalSection
+4.74,GetExitCodeProcess
+4.74,FreeEnvironmentStringsW
+4.74,GetEnvironmentStringsW
+4.74,GetCommandLineW
+4.71,LeaveCriticalSection
+4.71,DeleteCriticalSection
+4.71,GetLastError
+4.71,SetLastError
+4.71,SystemTimeToFileTime
+4.71,AllocateAndInitializeSid
+4.70,strerror
+4.70,SetEvent
+4.69,GetSecurityInfo
+4.67,GetVersionExA
+4.67,FormatMessageA
+4.67,CloseHandle
+4.67,GlobalFree
+4.67,ReleaseMutex
+4.67,GetFileType
+4.67,GetOverlappedResult
+4.67,FileTimeToSystemTime
+4.67,GetSystemTimeAsFileTime
+4.67,DuplicateHandle
+4.66,TlsAlloc
+4.66,CancelIo
+4.66,ProductVersion
+4.66,SetStdHandle
+4.65,calloc
+4.61,realloc
+4.59,Protocol family not supported
+4.57,WSARecv
+4.57,WSASend
+4.57,FreeSid
+4.57,TlsFree
+4.57,Address family not supported
+4.53,perror
+4.52,malloc
+4.49,fclose
+4.49,signal
+4.45,printf
+4.43,fflush
+4.43,wcslen
+4.42,U=SW@R
+4.42,strncpy
+4.42,strrchr
+4.42,strncmp
+4.42,wcsncmp
+4.39,strspn
+4.35,IH'IAH
+4.32,wcscpy
+4.32,strchr
+4.31,EAh W`
+4.30,QRPWSh4
+4.17,_errno
+4.06,ADVAPI32.dll
+4.01,GetEffectiveRightsFromAclW
+3.99,KERNEL32.dll
+3.92,advapi32
+3.92,kernel32
+3.84,SystemTimeToTzSpecificLocalTime
+3.76,MSVCRT.dll
+3.71,GetCompressedFileSizeW
+3.71,GetCompressedFileSizeA
+3.67,CommandLineToArgvW
+3.62,WaitForSingleObject
+3.61,GetNamedSecurityInfoW
+3.61,ZwQueryInformationFile
+3.61,GetNamedSecurityInfoA
+3.61,SetHandleInformation
+3.60,GetFileInformationByHandle
+3.15,\\?\UNC\
+2.96,strstr
+2.95,Nk_3o)
+2.84,ws2_32
+2.80,;c4%SY
+2.75,$PPRhh
+2.72,$PPdhh
+2.69,SVWVP0
+1.31,G<AA\6
+1.29,N$}F=9]
+1.17,(null)
+1.15,B<_^[]
+1.08,B hBW@
+1.07,D$$[[aYZQ
+1.06,t-3U?jxRV
+1.00,!"#$%&'()*+,-./0123@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+0.96,p X,,A
+0.88,M.PWWQh
+0.84,7XPVh`
+0.84,]-VWSz
+0.54,040904b0
+0.35,A`SSSSSSSS
+-0.09,PPPPQh
+-0.27,QRh@o@
+-0.36,h G@wj WS0
